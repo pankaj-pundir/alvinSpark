@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder,FormGroup,Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -27,6 +27,7 @@ export class ContactComponent implements OnInit {
     if (this.messageForm.invalid) {
         return;
     }
+
     this.success = true;
 }
 
