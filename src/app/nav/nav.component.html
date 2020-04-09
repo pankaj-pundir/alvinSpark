@@ -1,12 +1,26 @@
-<header>
-  <div class="container">
-    <a routerLink="/" class="logo" (dblclick)="renameTitle()">{{appTitle}}</a>
-    <nav>
-      <ul>
-        <li><a routerLink="/">Home</a></li>
-        <li><a routerLink="/about">About</a></li>
-        <li><a routerLink="/contact">Contact us</a></li>
-      </ul>
-    </nav>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+  <!-- Brand -->
+  <a class="navbar-brand" routerLink="/" >{{appTitle}}</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav left">
+      
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about">about</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact">contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/login">Login/SignUp</a>
+      </li>
+      
+    </ul>
   </div>
-</header>
+</nav>

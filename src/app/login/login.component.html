@@ -1,0 +1,35 @@
+
+
+<div class="card text-white bg-dark container jumbotron" style="max-width: 30%; min-width:20em;">
+  <div class="card-header">
+    <h1 class="h1 mb-3 font-weight-normal">Transform Together</h1>
+  </div>
+  <div class="card-body">
+    
+
+
+    <form [formGroup]="registerForm">
+      <!-- <img src="../../logo.png"> -->
+      <h3 class="card-title"> 
+     <!-- <label class="error">{{Message}}</label>
+     <label class="success">{{Message}}</label> -->
+    </h3>
+      <!-- <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1> -->
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" formControlName="email" class="form-control"  placeholder="Email address" required autofocus>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" class="form-control" formControlName="password"  placeholder="Password" required>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" >
+        Sign in</button>
+    </form>
+
+
+    <!-- <p class="card-text text-white">Some quick example text to build on the panel title and make up the bulk of the panel's content.</p> -->
+  </div>
+</div>
+

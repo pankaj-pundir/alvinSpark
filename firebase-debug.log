@@ -1,0 +1,114 @@
+[debug] [2020-04-06T09:39:48.448Z] ----------------------------------------------------------------------
+[debug] [2020-04-06T09:39:48.450Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-04-06T09:39:48.450Z] CLI Version:   8.0.1
+[debug] [2020-04-06T09:39:48.450Z] Platform:      win32
+[debug] [2020-04-06T09:39:48.450Z] Node Version:  v10.18.1
+[debug] [2020-04-06T09:39:48.452Z] Time:          Mon Apr 06 2020 15:09:48 GMT+0530 (India Standard Time)
+[debug] [2020-04-06T09:39:48.452Z] ----------------------------------------------------------------------
+[debug] [2020-04-06T09:39:48.452Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again.
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=996413815&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-04-06T09:40:57.831Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/yQGy69wciwmWuu9SozJT7e6jqgjLhq0V6mTsmMrCJA3C70DkfMaM07y_MBzOEqP6JQcVM73ZlDBMlfmg-n_4vM8","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-04-06T09:40:59.445Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=407
+    at Request._callback (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:31:31)
+    at self.callback (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.onRequestError (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at ClientRequest.onConnect (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:286:20)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at Socket.socketOnData (_http_client.js:475:11)
+    at Socket.emit (events.js:198:13)
+    at Socket.EventEmitter.emit (domain.js:448:20)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+[debug] [2020-04-06T09:41:16.821Z] ----------------------------------------------------------------------
+[debug] [2020-04-06T09:41:16.824Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-04-06T09:41:16.824Z] CLI Version:   8.0.1
+[debug] [2020-04-06T09:41:16.824Z] Platform:      win32
+[debug] [2020-04-06T09:41:16.824Z] Node Version:  v10.18.1
+[debug] [2020-04-06T09:41:16.825Z] Time:          Mon Apr 06 2020 15:11:16 GMT+0530 (India Standard Time)
+[debug] [2020-04-06T09:41:16.826Z] ----------------------------------------------------------------------
+[debug] [2020-04-06T09:41:16.826Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=825201273&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-04-06T09:41:46.600Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/yQHRkp7cODk7511rAeANwOcxpL1hcLvNysrAXGyMovx1W6eCy4TY_IVYl9N-vrQ-qa-UCc2I2IkdeP71C5YJ9oI","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-04-06T09:41:47.851Z] Token Fetch Error: FirebaseError: Server Error. tunneling socket could not be established, statusCode=407
+    at Request._callback (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:31:31)
+    at self.callback (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.onRequestError (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at ClientRequest.onConnect (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:168:23)
+    at Object.onceWrapper (events.js:286:20)
+    at ClientRequest.emit (events.js:198:13)
+    at ClientRequest.EventEmitter.emit (domain.js:448:20)
+    at Socket.socketOnData (_http_client.js:475:11)
+    at Socket.emit (events.js:198:13)
+    at Socket.EventEmitter.emit (domain.js:448:20)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+[debug] [2020-04-06T09:42:27.222Z] ----------------------------------------------------------------------
+[debug] [2020-04-06T09:42:27.225Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-04-06T09:42:27.225Z] CLI Version:   8.0.1
+[debug] [2020-04-06T09:42:27.225Z] Platform:      win32
+[debug] [2020-04-06T09:42:27.225Z] Node Version:  v10.18.1
+[debug] [2020-04-06T09:42:27.227Z] Time:          Mon Apr 06 2020 15:12:27 GMT+0530 (India Standard Time)
+[debug] [2020-04-06T09:42:27.227Z] ----------------------------------------------------------------------
+[debug] [2020-04-06T09:42:27.227Z] 
+[debug] [2020-04-06T09:42:27.238Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-06T09:42:28.352Z] Error: Unexpected error determining execution environment: Unsuccessful response status code. Request failed with status code 407
+    at Gaxios._request (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\gaxios\build\src\gaxios.js:85:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-04-07T12:17:29.527Z] ----------------------------------------------------------------------
+[debug] [2020-04-07T12:17:29.532Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-04-07T12:17:29.533Z] CLI Version:   8.0.1
+[debug] [2020-04-07T12:17:29.533Z] Platform:      win32
+[debug] [2020-04-07T12:17:29.533Z] Node Version:  v10.18.1
+[debug] [2020-04-07T12:17:29.536Z] Time:          Tue Apr 07 2020 17:47:29 GMT+0530 (India Standard Time)
+[debug] [2020-04-07T12:17:29.536Z] ----------------------------------------------------------------------
+[debug] [2020-04-07T12:17:29.536Z] 
+[debug] [2020-04-07T12:17:29.567Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-07T12:17:33.374Z] FetchError: Unexpected error determining execution environment: Response timeout while trying to fetch http://169.254.169.254/computeMetadata/v1/instance (over 3000ms)
+    at Timeout._onTimeout (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\node-fetch\lib\index.js:387:12)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-04-08T09:27:05.707Z] ----------------------------------------------------------------------
+[debug] [2020-04-08T09:27:05.713Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-04-08T09:27:05.714Z] CLI Version:   8.0.1
+[debug] [2020-04-08T09:27:05.714Z] Platform:      win32
+[debug] [2020-04-08T09:27:05.714Z] Node Version:  v10.18.1
+[debug] [2020-04-08T09:27:05.717Z] Time:          Wed Apr 08 2020 14:57:05 GMT+0530 (India Standard Time)
+[debug] [2020-04-08T09:27:05.717Z] ----------------------------------------------------------------------
+[debug] [2020-04-08T09:27:05.718Z] 
+[debug] [2020-04-08T09:27:05.750Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-08T09:27:07.739Z] Error: Unexpected error determining execution environment: Unsuccessful response status code. Request failed with status code 407
+    at Gaxios._request (C:\Users\xbbn386\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\gaxios\build\src\gaxios.js:85:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.

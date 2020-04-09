@@ -1,5 +1,13 @@
-<app-nav [appTitle] = "title" ></app-nav>
+<div class="text-light bg-secondary" style="width: 100%; height: 100%;">
+  <app-nav [appTitle] = "title" style="height:fit-content;" ></app-nav>
 
-<section>
-  <router-outlet></router-outlet>
-</section>
+  <section style="width: auto;height:auto;">
+    <router-outlet ></router-outlet>
+     <!-- <footer class="footer text-center" style="width: 100%;">
+      <div  style="width: 100%;">
+        <span class="text-muted">{{title}}</span>
+      </div>
+    </footer> -->
+  </section>  
+
+</div>
